@@ -1,0 +1,5 @@
+Installation Instructions
+
+1. Install SFML to c:/SFML/SFML-2.4.2/
+2. Install CMake
+3. Install MinGW 64bit
