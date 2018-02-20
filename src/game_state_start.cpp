@@ -10,7 +10,7 @@ GameStateStart::GameStateStart(Game* game)
    auto window_bounds = m_game->window()->getSize();
 
    m_background.setTexture(m_game->texture_map()->GetTexture("white_bg"));
-   m_background.setColor(sf::Color(0, 255, 0));
+   m_background.setColor(sf::Color(0, 0, 0));
 
    m_splash_text.setFont(m_game->font_map()->GetFont("athena_of_the_ocean"));
    m_splash_text.setString("DVG Party");
