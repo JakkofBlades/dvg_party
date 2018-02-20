@@ -7,6 +7,11 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake_modules)
 
 set(SOURCE_FILES
   src/main.cpp
+  src/logger.cpp
+  src/texture_map.cpp
+  src/font_map.cpp
+  src/game.cpp
+  src/game_state_start.cpp
   )
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=gnu++0x")
